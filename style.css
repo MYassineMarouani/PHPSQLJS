@@ -1,0 +1,90 @@
+/* Style pour le corps de la page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+}
+
+/* Style pour les titres */
+h1, h2 {
+    text-align: center;
+    color: white;
+    background-color: brown;
+    border-color: #333;
+    border-style: double;
+}
+
+/* Style pour le logo */
+.logo {
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.logo img {
+    max-width: 200px;
+}
+
+/* Style pour les formulaires */
+form {
+    margin: 20px auto;
+    width: 50%;
+    background-color: goldenrod;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+    border-radius: 4px;
+}
+
+/* Style pour les labels */
+label {
+    display: block;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+/* Style pour les inputs */
+input[type="text"], input[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+
+/* Style pour les boutons */
+input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #444;
+}
+
+/* Style pour les messages d'erreur */
+.error {
+    color: red;
+    margin-bottom: 10px;
+}
+table {
+    margin: 0 auto;
+    border-collapse: collapse;
+    border: 2px solid #333;
+  }
+  
+  table th, table td {
+    padding: 10px;
+    border: 1px solid #333;
+  }
+  
+  table th {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
